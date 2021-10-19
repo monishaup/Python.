@@ -19,6 +19,8 @@ int. Less obviously, numbers with a decimal point belong to a type called float,
 because these numbers are represented in a format called floating point.
 >>> type(3.2)
 <class 'float'>
+What about values like “17” and “3.2”? They look like numbers, but they are in
+quotation marks like strings.
 >>> type('17')
 <class 'str'>
 >>> type('3.2')
